@@ -1,0 +1,135 @@
+# Título del Apéndice 1 {#sec-apendice-uno}
+
+## Algoritmo XXX {#sec-algoritmo-xxx}
+
+\noindent Ejemplo de código con coloreado de sintaxis.
+
+```{.cpp code-line-numbers="true"}
+#include <iostream>
+
+int main()
+{
+  // Imprime "Hello, world!" en la consola
+  std::cout << "Hello, world!\n";
+  return 0;
+}
+```
+
+En estos bloques de código se pueden incluir anotaciones para explicar el código, como se muestra en el siguiente ejemplo:
+
+```{.cpp}
+#include <iostream>
+
+int main()
+{
+  std::println("Hello, world!");    // <1>
+  return 0;
+}
+```
+1. Imprime "Hello, world!" en la consola. Requiere C++23.
+
+Además, los bloques de código también pueden ser flotantes, lo que permite a \LaTeX{} ponerlo donde mejor convenga en la página.
+Se puede ver un ejemplo en @lst-flotante.
+
+::: {#lst-flotante}
+```{.python}
+def factorial(n):
+    if n <= 1:
+        return 1    # <1>
+    else:
+        return n * factorial(n - 1)
+```
+1. El factorial de 0 o 1 es 1.
+:::
+
+## Archivo XXX {#sec-archivo-xxy}
+
+\noindent Ejemplo de JSON usando el coloreado de sintaxis.
+
+```json
+{
+    "nombre": "John Doe",
+    "edad": 30,
+    "ciudad": "Nueva York",
+    "hobbies": [
+        "lectura",
+        "jardinería",
+        "ciclismo"
+    ],
+    "empleo": {
+        "título": "Ingeniero de Software",
+        "empresa": "TechCorp"
+    }
+}
+```
+
+## Algoritmo YYY {#sec-algoritmo-yyy}
+
+\noindent El clásico bloque sin coloreado pero con fuente monoespaciada.
+
+```
+/***********************************************************************************
+ *
+ * Fichero .h
+ *
+ ***********************************************************************************
+ *
+ * AUTORES
+ *
+ * FECHA
+ *
+ * DESCRIPCION
+ *
+ *
+ ************************************************************************************/
+```
+
+## Diagrama ZZZ {#sec-diagrama-zzz}
+
+\noindent En la @fig-diagrama se ilustra un ejemplo del uso del Mermaid.js para crear diagramas.
+En este caso se trata de un diagrama de clases, pero Mermaid.js también permite crear otros tipos de diagramas, como diagramas de Gantt, diagramas de secuencia o diagramas de flujo, entre muchos otros.
+
+```{mermaid}
+%%| label: fig-diagrama
+%%| fig-cap: Diagrama de clases.
+%%| fig-width: 80%
+classDiagram
+    class Jugador {
+        +String nombre
+        +int nivel
+        +String clase
+        +CompletarMision(Mision mision): void
+    }
+
+    class Mision {
+        +String titulo
+        +String descripcion
+        +int nivelRequerido
+        +recompensa(): String
+    }
+
+    class NPC {
+        +String nombre
+        +String rol
+        +asignarMision(Jugador jugador, Mision mision): void
+        +darRecompensa(Jugador jugador, Mision mision): void
+    }
+
+    class Inventario {
+        +List~Item~ items
+        +agregarItem(Item item): void
+        +removerItem(Item item): void
+    }
+
+    class Item {
+        +String nombre
+        +String tipo
+        +String rareza
+    }
+
+    Jugador "1" -- "*" Mision : completa
+    NPC "1" -- "*" Mision : asigna
+    NPC "1" -- "*" Jugador : interactúa
+    Jugador "1" -- "1" Inventario : posee
+    Inventario "1" -- "*" Item : contiene
+```

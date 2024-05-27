@@ -1,0 +1,23 @@
+# Título del Capítulo 2 {#sec-capitulo-dos}
+
+\noindent Los capítulos intermedios sirven para cubrir los siguientes aspectos: antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto.
+
+En el capítulo anterior se ha introducido la @fig-introduccion y en este la @fig-otra.
+
+## Primera sección de otro capítulo {#sec-primera-seccion}
+
+<!-- ![Otra figura.](images/licenses/by-nd.eps){#fig-otra width=50%} -->
+
+\noindent {{< lipsum 3 >}}
+
+### Primera subsección
+
+\noindent {{< lipsum 4 >}}
+
+### Segunda subsección
+
+\noindent {{< lipsum 5 >}}
+
+## Segunda sección de otro capítulo
+
+\noindent {{< lipsum 6-7 >}}

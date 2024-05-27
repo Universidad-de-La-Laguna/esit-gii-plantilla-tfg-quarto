@@ -1,0 +1,15 @@
+# Título del Capítulo 3 {#ch-tres}
+
+\noindent Los capítulos intermedios sirven para cubrir los siguientes aspectos: antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto.
+
+## Primera sección de este capítulo
+
+\noindent {{< lipsum -2 >}}
+
+## Segundo apartado de este capítulo
+
+\noindent {{< lipsum 3 >}}
+
+## Tercer apartado de este capítulo
+
+\noindent {{< lipsum 4 >}}

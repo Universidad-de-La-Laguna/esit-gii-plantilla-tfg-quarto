@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: "Título del trabajo"
+  author: "Nombre y Apellidos"
+  date: today
+  license: "CC BY 4.0"
+  chapters:
+    - index.qmd
+    - 01-introducción.qmd
+    - 02-capítulo2.qmd
+    - 03-capítulo3.qmd
+    - 04-capítulo4.qmd
+    - 05-conclusiones.qmd
+    - 06-conclusions.qmd
+    - 07-presupuesto.qmd
+  appendices:
+    - 0A-apéndice1.qmd
+    - 0B-apéndice2.qmd
+    - referencias.qmd
+
+tfg-report:
+  title-en: "Title in English"
+  tutors:
+    - "Nombre Apellido1 Apellido2"
+    - "Nombre Apellido1 Apellido2"
+  summary:
+    es: resumen.qmd
+    en: abstract.qmd
+
+lang: "es"
+
+bibliography: referencias.bib
+csl: apa-no-ampersand.csl
+
+format:
+  pdf:
+    keep-tex: true
+    #documentclass: scrbook
+    fig-pos: 'htbp'
+    # colorlinks: true

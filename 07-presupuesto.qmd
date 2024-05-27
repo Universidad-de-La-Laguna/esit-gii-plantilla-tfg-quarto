@@ -1,0 +1,35 @@
+# Presupuesto {#sec-presupuesto}
+
+\noindent Este capítulo es obligatorio.
+Toda memoria de trabajo de fin de grado debe incluir un presupuesto.
+
+## Sección Uno
+
+| **Descripción**                          | **Cantidad** | **Coste (€)** |
+|------------------------------------------|-------------:|--------------:|
+| Portátil                                 | 1            | 900,00        |
+| Licencia de Software de Desarrollo (IDE) | 1            | 100,00        |
+| Licencia de Software de Diseño Gráfico   | 1            | 50,00         |
+| Compra de Componentes Adicionales        | 1            | 150,00        |
+| Servicios en la Nube                     | 12 meses     | 240,00        |
+| **Subtotal de Equipos y Licencias**      |              | **1440,00**   |
+
+: Presupuesto de Equipos y Licencias
+
+
+| **Descripción**                    | **Horas** | **Coste (€)** |
+|------------------------------------|----------:|--------------:|
+| Precio por Hora                    |           | 20,00         |
+| Total de Horas de Trabajo          | 100       |               |
+| **Costo Total del Trabajo Humano** |           | **2000,00**   |
+
+: Coste de Mano de Obra
+
+
+| **Descripción**                 | **Coste Total (€)** |
+|---------------------------------|--------------------:|
+| Subtotal de Equipos y Licencias | 1440,00             |
+| Costo Total del Trabajo         | 2000,00             |
+| **Coste Total del Proyecto**    | **3440,00**         |
+
+: Coste Total del Proyecto {#tbl-presupuesto}

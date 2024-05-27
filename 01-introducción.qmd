@@ -1,0 +1,65 @@
+# Introducción {#sec-introduccion}
+
+\noindent Cualquier capítulo puede tener múltiples apartados, como el @sec-lista-de-items o el @sec-enumeraciones de este mismo capítulo.
+
+También está el @sec-primera-seccion del @sec-capitulo-dos que tiene la @fig-otra.
+
+Es buena idea usar `\noindent` --que es un comando de \LaTeX{}-- al principio del primer párrafo, tras el encabezado de una sección o capítulo, para desactivar la sangría temporalmente.
+
+## Listas de elementos {#sec-lista-de-items}
+
+\noindent Esta la lista de elementos del @sec-lista-de-items:
+
+* Item 1
+  * Item 1
+  * Item 2
+  * Item 3
+  * Item 4
+* Item 2
+* Item 3
+* Item 4
+
+## Enumeraciones {#sec-enumeraciones}
+
+\noindent Esto es una lista enumerada, que puede estar relacionada con la @fig-introduccion
+
+1. Item 1
+   1. Item 1
+   2. Item 2
+   3. Item 3
+2. Item 2
+3. Item 3
+
+## Figuras y tablas
+
+\noindent En la @fig-introduccion se puede ver una figura de ejemplo.
+Las figuras --y, opcionalmente, los listados de código-- son flotantes.
+Esto quiere decir que \LaTeX{} las intentará ubicar en el mejor lugar posible al componer el documento, intentando respetar ciertas reglas tipográficas.
+Como este lugar puede ser diferente a la posición que realmente ocupan en el texto, **es importante referenciar en el texto todas las figuras**, en los diferentes puntos donde se hable de ellas.
+
+![Ejemplo de figura.](images/figura_1.png){#fig-introduccion width=80%}
+
+Por otro lando, la @tbl-presupuesto en el @sec-presupuesto es un ejemplo de tabla hecha con Markdown.
+
+## Código y algoritmos
+
+\noindent En el @sec-apendice-uno se pueden observar varios ejemplos de entornos para describir algoritmos y código.
+
+## Citas
+
+\noindent Las referencias bibliográficas se deben indicar en el archivo `referencias.bib` y se citan en el texto.
+Las referencias no citadas no aparecerán en el apartado de la bibliografía.
+
+Las citas pueden ser entre paréntesis [@examplearticle] o _en línea_, como la de @examplegithub.
+
+Las reglas para citar [@ulllibguide] permiten citar cualquier cosa: artículos de investigación, libros, entradas de la Wikipedia, blogs, vídeos de Youtube o repositorios de GitHub, entre otros.
+
+En el @sec-capitulo-cuatro se puede ver otro tipo de cita, donde se traslada de forma literal una porción del texto original al documento.
+
+## Otra sección...
+
+\noindent {{< lipsum 1 >}}
+
+### Con subsección...
+
+\noindent {{< lipsum 2 >}}

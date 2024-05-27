@@ -1,0 +1,9 @@
+# Título del Apéndice 2 {#ch-apéndice2}
+
+## Otro apéndice: Sección 1
+
+\noindent {{< lipsum 2 >}}
+
+## Otro apéndice: Sección 2
+
+{{< lipsum 3 >}}

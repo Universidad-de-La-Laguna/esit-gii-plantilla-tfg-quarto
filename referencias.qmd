@@ -1,0 +1,7 @@
+# Bibliografía {.unnumbered}
+
+Las siguientes referencias bibliográficas se presentan en orden alfabético por autor. Las referencias con más de un autor aparecen ordenadas en base al primero de los mismos.
+\bigskip
+
+::: {#refs}
+:::
