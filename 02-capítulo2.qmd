@@ -6,7 +6,7 @@ En el capítulo anterior se ha introducido la @fig-introduccion y en este la @fi
 
 ## Primera sección de otro capítulo {#sec-primera-seccion}
 
-<!-- ![Otra figura.](images/licenses/by-nd.eps){#fig-otra width=50%} -->
+![Otra figura.](images/licenses/by-nd.pdf){#fig-otra width=50%}
 
 {{< lipsum 3 >}}
 
