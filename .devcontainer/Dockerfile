@@ -1,8 +1,10 @@
 FROM mcr.microsoft.com/devcontainers/base:bookworm
 
-# Install Chromium dependencies. The Chromium version installed by Quarto doesn't include them
 RUN apt -y update && export DEBIAN_FRONTEND=noninteractive \
-    && apt -y install --no-install-recommends \
+&& apt -y install --no-install-recommends \
+    # SVG support
+    librsvg2-bin \
+    # Install Chromium dependencies. The Chromium version installed by Quarto doesn't include them
     libasound2 \
     libatk-bridge2.0-0 \
     libatk1.0-0 \
