@@ -58,8 +58,8 @@ En el @sec-capitulo-cuatro se puede ver otro tipo de cita, donde se traslada de 
 
 ## Otra sección...
 
-\noindent {{< lipsum 1 >}}
+{{< lipsum 1 >}}
 
 ### Con subsección...
 
-\noindent {{< lipsum 2 >}}
+{{< lipsum 2 >}}

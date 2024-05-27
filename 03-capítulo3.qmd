@@ -4,12 +4,12 @@
 
 ## Primera sección de este capítulo
 
-\noindent {{< lipsum -2 >}}
+{{< lipsum -2 >}}
 
 ## Segundo apartado de este capítulo
 
-\noindent {{< lipsum 3 >}}
+{{< lipsum 3 >}}
 
 ## Tercer apartado de este capítulo
 
-\noindent {{< lipsum 4 >}}
+{{< lipsum 4 >}}

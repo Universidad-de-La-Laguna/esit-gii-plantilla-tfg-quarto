@@ -8,16 +8,16 @@ En el capítulo anterior se ha introducido la @fig-introduccion y en este la @fi
 
 <!-- ![Otra figura.](images/licenses/by-nd.eps){#fig-otra width=50%} -->
 
-\noindent {{< lipsum 3 >}}
+{{< lipsum 3 >}}
 
 ### Primera subsección
 
-\noindent {{< lipsum 4 >}}
+{{< lipsum 4 >}}
 
 ### Segunda subsección
 
-\noindent {{< lipsum 5 >}}
+{{< lipsum 5 >}}
 
 ## Segunda sección de otro capítulo
 
-\noindent {{< lipsum 6-7 >}}
+{{< lipsum 6-7 >}}

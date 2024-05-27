@@ -2,7 +2,7 @@
 
 ## Otro apéndice: Sección 1
 
-\noindent {{< lipsum 2 >}}
+{{< lipsum 2 >}}
 
 ## Otro apéndice: Sección 2
 
