@@ -30,14 +30,9 @@ tfg-report:
     es: resumen.qmd
     en: abstract.qmd
 
-lang: "es"
-
 bibliography: referencias.bib
-csl: apa-no-ampersand.csl
 
 format:
-  pdf:
-    keep-tex: true
-    #documentclass: scrbook
-    fig-pos: 'htbp'
+  ull-esit-gii-tfg-pdf:
     # colorlinks: true
+    keep-tex: true
