@@ -2,5 +2,6 @@
 /_output/
 /*_files/
 
-*.tex
+/*.tex
+/index.lop
 /.luarc.json

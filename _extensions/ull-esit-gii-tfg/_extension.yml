@@ -19,6 +19,9 @@ contributes:
       include-in-header:
         - lang.tex
         - style.tex
+      template-partials:
+        - title.tex
+        - toc.tex
       fig-pos: htbp
       colorlinks: false
       # layout
