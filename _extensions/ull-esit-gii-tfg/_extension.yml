@@ -6,9 +6,49 @@ contributes:
   formats:
     common:
       lang: es
+      language:
+        crossref-sec-prefix: Apartado
+        crossref-lof-title: Índice de figuras
+        crossref-lot-title: Índice de tablas
+        crossref-lol-title: Índice de listados
     pdf:
-      toc: true
       documentclass: scrbook
-      include-in-header: header.tex
-      fig-pos: 'htbp'
+      classoption: 
+        - oneside
+        - spanish
+      include-in-header:
+        - lang.tex
+        - style.tex
+      fig-pos: htbp
+      colorlinks: false
+      # layout
+      papersize: a4
+      pagestyle: plain
+      geometry: 
+        - top=2cm
+        - bottom=3.3cm
+        - left=2cm
+        - right=2cm
+      # Fonts
+      fontsize: 12pt
+      mainfont: Latin Modern Sans
+      mainfontoptions:
+        - Scale=1
+        - Ligatures=TeX
+        - SmallCapsFont=Latin Modern Roman Caps
+      sansfont: Latin Modern Sans
+      sansfontoptions:
+        - Ligatures=TeX
+        - Scale=MatchLowercase
+      monofont: Source Code Pro
+      monofontoptions:
+        - Scale=MatchLowercase
+      # TOC
+      toc: true
+      toc-depth: 3
+      lof: true
+      lot: true
+      lol: true
+      # Bibliography
       csl: resources/apa-no-ampersand.csl
+      link-citations: true

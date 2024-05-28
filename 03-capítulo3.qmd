@@ -1,6 +1,6 @@
 # Título del Capítulo 3 {#ch-tres}
 
-\noindent Los capítulos intermedios sirven para cubrir los siguientes aspectos: antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto.
+Los capítulos intermedios sirven para cubrir los siguientes aspectos: antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto.
 
 ## Primera sección de este capítulo
 

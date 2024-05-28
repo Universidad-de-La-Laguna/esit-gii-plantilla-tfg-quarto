@@ -16,6 +16,11 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
+	// Use 'postCreateCommand' to install required LaTeX packages.
+	"postCreateCommand": [
+		"/home/vscode/.TinyTeX/bin/x86_64-linux/tlmgr", "install", "babel-spanish"
+	],
+
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {

@@ -1,6 +1,6 @@
 # Título del Capítulo 2 {#sec-capitulo-dos}
 
-\noindent Los capítulos intermedios sirven para cubrir los siguientes aspectos: antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto.
+Los capítulos intermedios sirven para cubrir los siguientes aspectos: antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto.
 
 En el capítulo anterior se ha introducido la @fig-introduccion y en este la @fig-otra.
 

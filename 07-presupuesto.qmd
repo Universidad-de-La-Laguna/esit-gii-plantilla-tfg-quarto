@@ -1,6 +1,6 @@
 # Presupuesto {#sec-presupuesto}
 
-\noindent Este capítulo es obligatorio.
+Este capítulo es obligatorio.
 Toda memoria de trabajo de fin de grado debe incluir un presupuesto.
 
 ## Sección Uno

@@ -1,0 +1,41 @@
+\KOMAoptions{
+    chapterprefix=true,
+    numbers=enddot,
+}
+
+% Formato de los títulos de capítulos
+% Eliminar el punto y reducir el espacio entre el prefijo y el nombre del capítulo 
+\renewcommand*{\chapterformat}{%
+    \mbox{\chapappifchapterprefix{\nobreakspace}\thechapter
+    \IfUsePrefixLine{}{\enskip}}}
+\renewcommand{\chapterheadmidvskip}{\vskip 0pt}
+
+% Redefinición de las entradas de los capítulos en la tabla de contenidos
+% para que aparezca el prefijo.
+\let\originaladdchaptertocentry\addchaptertocentry
+\renewcommand*{\addchaptertocentry}[2]{%
+  \IfArgIsEmpty{#1}{% Entrada sin número
+    \originaladdchaptertocentry{#1}{#2}%
+  }{% Entrada con número
+    % Eliminar el número y poner el prefijo directamente en el título del capítulo
+    \originaladdchaptertocentry{}{\chapapp~#1\autodot\space#2}%
+  }%
+}
+
+% Formato de los títulos en figuras y tablas
+\renewcommand*{\figureformat}{\figurename~\thefigure}
+\renewcommand*{\tableformat}{\tablename~\thetable}
+
+% Separador en los títulos de listados de código
+\usepackage{caption}
+\captionsetup[codelisting]{labelfont=bf, labelsep=default}
+
+% Sangría de los párrafos
+\setlength{\parindent}{0.5cm}
+
+% Ajustar símbolos en listas no numeradas
+\newfontfamily{\lmromanfont}{Latin Modern Roman}
+\setkomafont{itemizelabel}{\lmromanfont}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\diamond$}
+\renewcommand{\labelitemiv}{$\triangleright$}

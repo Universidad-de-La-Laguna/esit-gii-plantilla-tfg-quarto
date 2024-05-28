@@ -2,7 +2,7 @@
 
 ## Algoritmo XXX {#sec-algoritmo-xxx}
 
-\noindent Ejemplo de código con coloreado de sintaxis.
+Ejemplo de código con coloreado de sintaxis.
 
 ```{.cpp code-line-numbers="true"}
 #include <iostream>
@@ -31,7 +31,7 @@ int main()
 Además, los bloques de código también pueden ser flotantes, lo que permite a \LaTeX{} ponerlo donde mejor convenga en la página.
 Se puede ver un ejemplo en @lst-flotante.
 
-::: {#lst-flotante}
+::: {#lst-flotante lst-cap="Función factorial en Python."}
 ```{.python}
 def factorial(n):
     if n <= 1:
@@ -44,7 +44,7 @@ def factorial(n):
 
 ## Archivo XXX {#sec-archivo-xxy}
 
-\noindent Ejemplo de JSON usando el coloreado de sintaxis.
+Ejemplo de JSON usando el coloreado de sintaxis.
 
 ```json
 {
@@ -65,14 +65,14 @@ def factorial(n):
 
 ## Algoritmo YYY {#sec-algoritmo-yyy}
 
-\noindent El clásico bloque sin coloreado pero con fuente monoespaciada.
+El clásico bloque sin coloreado pero con fuente monoespaciada.
 
 ```
-/***********************************************************************************
+/**********************************************************************
  *
  * Fichero .h
  *
- ***********************************************************************************
+ **********************************************************************
  *
  * AUTORES
  *
@@ -81,18 +81,18 @@ def factorial(n):
  * DESCRIPCION
  *
  *
- ************************************************************************************/
+ ***********************************************************************/
 ```
 
 ## Diagrama ZZZ {#sec-diagrama-zzz}
 
-\noindent En la @fig-diagrama se ilustra un ejemplo del uso del Mermaid.js para crear diagramas.
+En la @fig-diagrama se ilustra un ejemplo del uso del Mermaid.js para crear diagramas.
 En este caso se trata de un diagrama de clases, pero Mermaid.js también permite crear otros tipos de diagramas, como diagramas de Gantt, diagramas de secuencia o diagramas de flujo, entre muchos otros.
 
 ```{mermaid}
 %%| label: fig-diagrama
 %%| fig-cap: Diagrama de clases.
-%%| fig-width: 80%
+%%{init: {'themeVariables': { 'fontSize': '10pt'}}}%%
 classDiagram
     class Jugador {
         +String nombre

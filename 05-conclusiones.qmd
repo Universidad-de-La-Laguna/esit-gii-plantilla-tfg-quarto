@@ -1,4 +1,4 @@
 # Conclusiones y líneas futuras {#sec-conclusiones}
 
-\noindent Este capítulo es obligatorio.
+Este capítulo es obligatorio.
 Toda memoria de trabajo de fin de grado debe incluir unas conclusiones y unas líneas de trabajo futuro.

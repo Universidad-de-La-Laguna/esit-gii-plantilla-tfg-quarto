@@ -1,12 +1,12 @@
 # Título del Capítulo 4 {#sec-capitulo-cuatro}
 
-\noindent Los capítulos intermedios sirven para cubrir los siguientes aspectos: antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto.
+Los capítulos intermedios sirven para cubrir los siguientes aspectos: antecedentes, problemática o estado del arte, objetivos, fases y desarrollo del proyecto.
 
 En el @sec-introduccion se comentó lo que @examplearticle dijo al respecto.
 Aquí vamos a profundizar en una de sus afirmaciones más controvertidas:
 
-> *{{< lipsum 7 >}}* --- Albert Einstein
+> «{{< lipsum 7 >}}» (Albert Einstein)c
 
-Es decir que _"erat ac sagittis semper"_, lo que se ilustra en el esquema de la @fig-otra.
+Es decir que «erat ac sagittis semper», lo que se ilustra en el esquema de la @fig-otra.
 
 {{< lipsum 2 >}}

@@ -2,9 +2,12 @@ FROM mcr.microsoft.com/devcontainers/base:bookworm
 
 RUN apt -y update && export DEBIAN_FRONTEND=noninteractive \
 && apt -y install --no-install-recommends \
+    # Fonts
+    fonts-lmodern \
     # SVG support
     librsvg2-bin \
-    # Install Chromium dependencies. The Chromium version installed by Quarto doesn't include them
+    # Install Chromium dependencies. Chromium is required by Mermaid.js but the version installed
+    # by Quarto doesn't include all the dependencies
     libasound2 \
     libatk-bridge2.0-0 \
     libatk1.0-0 \
@@ -32,3 +35,9 @@ RUN apt -y update && export DEBIAN_FRONTEND=noninteractive \
     fonts-liberation \
     && apt autoremove -y \
     && apt clean -y && rm -rf /var/lib/apt/lists/*
+
+# Install Source Code Pro font
+RUN curl -sSL -o /tmp/fonts-sourcecodepro_1.0_all.deb https://sid.ethz.ch/fonts/sourcecodepro/fonts-sourcecodepro_1.0_all.deb \
+    && dpkg -i /tmp/fonts-sourcecodepro_1.0_all.deb \
+    && rm /tmp/fonts-sourcecodepro_1.0_all.deb
+    
