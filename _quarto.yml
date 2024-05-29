@@ -2,6 +2,8 @@ project:
   type: book
   output-dir: "_output"
 
+lang: es
+
 book:
   title: "Título del trabajo"
   author: "Nombre y Apellidos"
@@ -16,10 +18,10 @@ book:
     - 05-conclusiones.qmd
     - 06-conclusions.qmd
     - 07-presupuesto.qmd
+    - referencias.qmd
   appendices:
     - 0A-apéndice1.qmd
     - 0B-apéndice2.qmd
-    - referencias.qmd
 
 tfg-report:
   title-en: "Title in English"

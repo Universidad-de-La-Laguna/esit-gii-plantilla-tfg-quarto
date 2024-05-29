@@ -5,12 +5,12 @@ quarto-required: ">=1.4.0"
 contributes:
   formats:
     common:
-      lang: es
       language:
-        crossref-sec-prefix: Apartado
-        crossref-lof-title: Índice de figuras
-        crossref-lot-title: Índice de tablas
-        crossref-lol-title: Índice de listados
+        es:
+          crossref-sec-prefix: Apartado
+          crossref-lof-title: Índice de figuras
+          crossref-lot-title: Índice de tablas
+          crossref-lol-title: Índice de listados
     pdf:
       documentclass: scrbook
       classoption: 
